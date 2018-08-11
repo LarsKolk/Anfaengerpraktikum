@@ -1,0 +1,15 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Ziel}{1}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{1}{section.2}
+\contentsline {section}{\numberline {3}Durchführung}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Magnetfeld von Spulen }{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Magnetfeld von Spulenpaaren}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Hysteresekurve}{4}{subsection.3.3}
+\contentsline {section}{\numberline {4}Auswertung}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Solenoide }{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Helmholtz-Spulen }{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Toroid }{9}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.12}
