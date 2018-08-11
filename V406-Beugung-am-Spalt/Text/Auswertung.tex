@@ -1,0 +1,94 @@
+\section{Auswertung}
+
+\subsection{Einzelspalt \label{sec:ein}}
+
+In Tabelle \ref{tab:ein} befinden sich die aufgenommenen Messwerte.
+\input{Text/Tabellen/einzel.tex}
+
+Von der Intensität $I$ muss noch der Dunkelstrom $I_\text{d} = \SI{0,002}{} \: \symup{μA}$ abgezogen werden. Im Anschluss werden diese normiert.
+Diese Werte sind in Abbildung \ref{fig:ein} aufgetragen.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/einzel.pdf}
+  \caption{Graph zur Bestimmung der Breite des Einzelspalts mit den Parametern $(A_0, b, x_0)$.}
+  \label{fig:ein}
+\end{figure}
+
+Eine Regression
+\begin{equation*}
+  f(x) = A^2_0 b^2 \left(\frac{\lambda}{\pi b \sin{\!\left(\frac{x-x_0}{L} \right)}}\right)^2 \sin^2{\!\left(\frac{\pi b \sin{\!\left( \frac{x-x_0}{L}\right)}}{\lambda} \right)}
+\end{equation*}
+\begin{center}
+  \small{($L = \SI{97,5}{\cm}$, $\lambda = \SI{635}{\nm}$)}
+\end{center}
+liefert die Werte
+\begin{align*}
+  A_0 &= 13,05 \pm 0,07 \: \frac{\symup{\mu A}}{\symup{mm}}\\
+  b &= \SI{0,0754(5)}{\mm}\\
+  x_0 &= \SI{25,12(2)}{\mm}.
+\end{align*}
+
+Die relative Abweichung von der Herstellerangabe $b_\text{theo} = \SI{0,075}{\mm}$ beträgt $\SI{0,56}{\%}$. Dies entspricht einem $1 \sigma$-Intervall.
+
+\subsection{Doppelspalt}
+
+\subsubsection{1. Messung \label{sec:1dop}}
+
+In Tabelle \ref{tab:1dop} befinden sich die aufgenommenen Messwerte.
+\input{Text/Tabellen/1doppel.tex}
+
+Von der Intensität $I$ muss wie schon in Kapitel \ref{sec:ein} noch der Dunkelstrom $I_\text{d} = \SI{0,002}{} \: \symup{μA}$ abgezogen werden.
+Im Anschluss werden die Werte erneut normiert.
+Diese Werte sind in Abbildung \ref{fig:1dop} aufgetragen.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/1doppel.pdf}
+  \caption{Graph zur Bestimmung der Breite und des Abstandes des Doppelspalts mit den Parametern $(A_0, b, x_0, g)$.}
+  \label{fig:1dop}
+\end{figure}
+
+Eine Regression
+\begin{equation*}
+  f(x) = A^2_0 b^2 \left(\frac{\lambda}{\pi b \sin{\!\left(\frac{x-x_0}{L} \right)}}\right)^2 \cos^2{\!\left(\frac{\pi g \sin{\!\left(\frac{x-x_0}{L}\right)}}{\lambda} \right)} \sin^2{\!\left(\frac{\pi b \sin{\!\left( \frac{x-x_0}{L}\right)}}{\lambda} \right)}
+\end{equation*}
+\begin{center}
+  \small{($L = \SI{97,5}{\cm}$, $\lambda = \SI{635}{\nm}$)}
+\end{center}
+liefert die Werte
+\begin{align*}
+  A_0 &= \SI{6,6(1)}{\uA \per \mm}\\
+  b &= \SI{0,154(2)}{\mm}\\
+  x_0 &= \SI{25,19(1)}{\mm}\\
+  g &= \SI{0,237(3)}{\mm}.
+\end{align*}
+
+Die Herstellerangaben betragen $b_\text{theo} = \SI{0,15}{\mm}$ und $g_\text{theo} = \SI{0,25}{\mm}$.
+Die gemessene Breite liegt in einem $2 \sigma$-Intervall. Der relative Fehler beträgt $\SI{2,79}{\%}$.
+Der gemessene Abstand liegt in einem $5 \sigma$-Intervall und der relative Fehler beträgt $\SI{5,41}{\%}$.
+
+\subsubsection{2. Messung \label{sec:2dop}}
+
+In Tabelle \ref{tab:2dop} befinden sich die aufgenommenen Messwerte.
+\input{Text/Tabellen/2doppel.tex}
+
+Von der Intensität $I$ muss erneut der Dunkelstrom $I_\text{d} = \SI{0,002}{} \: \symup{μA}$ abgezogen werden und die Werte werden erneut normiert.
+Die Werte sind in Abbildung \ref{fig:2dop} aufgetragen.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/2doppel.pdf}
+  \caption{Graph zur Bestimmung der Breite und des Abstandes des Doppelspalts mit den Parametern $(A_0, b, x_0, g)$.}
+  \label{fig:2dop}
+\end{figure}
+
+Die Regression aus Kapitel \ref{sec:1dop} ergibt die Werte
+\begin{align*}
+  A_0 &= \SI{6,8(4)}{\uA \per \mm}\\
+  b &= \SI{0,16(1)}{\mm}\\
+  x_0 &= \SI{25,51(2)}{\mm}\\
+  g &= \SI{0,494(9)}{\mm}.
+\end{align*}
+
+Die Breite weicht mit einem relativen Fehler von $\SI{5,49}{\%}$ von der Herstellerangabe
+$b_\text{theo} = \SI{0,15}{\mm}$ ab und liegt dabei in einem $1 \sigma$-Intervall.
+Die Herstellerangabe für den Abstand beträgt $g_\text{theo} = \SI{0,5}{\mm}$.
+Der gemessene Wert liegt ebenfalls in einem $1 \sigma$-Intervall und der relative Fehler beträgt $\SI{1,25}{\%}$.

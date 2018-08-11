@@ -1,0 +1,52 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+
+In diesem Versuch soll die Reichweite von $\alpha$-Strahlung in Luft bestimmt werden.
+
+\section{Theorie}
+\subsection{Entstehung von alpha-Strahlung}
+Bei $\alpha$-Strahlung handelt es sich Heliumkerne, die durch radioaktiven Zerfall entstehen.
+In diesem Versuch wird dies durch den Zerfall von Americium realisiert.
+Die dazugehörige Zerfallsgleichung lautet:
+\begin{equation}
+  \ce{^{241}_{95}Am}\rightarrow\ce{^{237}_{95}Np} + \ce{^{4}_{2} He^{++}}
+\end{equation}
+
+\subsection{Alpha-Strahlung im Medium}
+Wenn sich $\alpha$-Strahlung im Medium fortbewegt, kann diese durch elastische Stöße Energie abgeben. Die so abgegebene Energie für die weiteren Betrachtungen
+legiglich eine untergeordnete Rolle spielen.
+Jedoch kommt es durch Ionisations- und Anregungsprozesse zu nicht vernachlässligbaren Energieverlusten $\frac{-\symup{d}E_\alpha}{\symup{d}x}$, die durch
+die Bethe-Bloch-Gleichung gegeben sind:
+\begin{equation}
+  -\frac{\mathrm{d}E_\text{\alpha}}{\mathrm{d}x}=\frac{z^2e^4nZ}{4\pi\epsilon_0m_e v^2}\ln\left(\frac{2m_e v^2}{I}\right) \label{eqn:ex} %\text{.}
+\end{equation}
+\begin{center}
+ \tiny {($z \: \hat{=} \:\text{Ladungen}$, $Z \: \hat{=} \:\text{Ordnungszahl}$, $n \: \hat{=} \:\text{Teilchendichte}$, $v \: \hat{=} \:\text{Geschwindigkeit der $\alpha$-Strahlung}$)}
+\end{center}
+Jedoch verliert Gleichung \eqref{eqn:ex} bei sehr kleinen Energien ihre Gültigkeit, da es bei diesen Energien zu Ladungsaustauschprozessen kommt.
+Die Reichweite  der $\alpha$-Strahlung lässt sich dabei durch
+\begin{equation}
+R=\int_0^{E_\text{\alpha}}\frac{\mathrm{d}E_\text{\alpha}}{-\frac{\mathrm{d}E_\text{\alpha}}{\mathrm{d}x}}\text{.}
+\end{equation}
+berechnen.
+Da nicht alle $\alpha$-Teilchen mit Anfangsenergie $E$ gleich viele Stöße pro Weglänge $\symup{d}x$ ausführen, wird die mittlere Weglänge definiert.
+Als diese wird die Weglänge verstanden, die $50\%$ der ausgesendeten $\alpha$-Teilchen noch erreichen.
+Für Strahlungsenergien $E_\text{\alpha}\leq\SI{2,5e6}{\electronvolt}$ kann die mittlere Weglänge beschrieben werden durch:
+\begin{equation}
+R_m=3,1\cdot\sqrt{E^3_\text{\alpha}}\label{eq:Rm}\text{.}
+\end{equation}
+Bei konstanten Druck und konstanter Temperatur lässt sich mit
+\begin{equation}
+x=x_0\cdot\frac{p}{p_0}\label{eq:x},
+\end{equation}
+\begin{center}
+ \tiny {($p \: \hat{=} \:\text{Druck}$, $x_0 \: \hat{=} \:\text{effektive Länge}$)}
+\end{center}
+ein Zusammenhang zwischen dem herrschenden Druck und der effektiven Weglänge $x$ aufstellen.
+Somit kann die Reichweite von $\alpha$-Strahlung mithilfe einer Absorptionsmessung bestimmt werden, indem der Druck $p$ variiert wird.
+
+\subsection{Der Halbleiterrsperschichtzähler}
+Ein Halbleitersperrschichtzähler besteht aus einer Diode, die entgegen der Stromrichtung geschaltet ist.
+Zwischen den beiden Schichten bildet sich eine ladungsträgerfreie Zone aus, da die Elektronen des n-Leiters zu den positiven Ionen des p-Leiters wandern.
+Einstreffende $\alpha$-Strahlung erzeugt in dieser Zone Elektronen-Loch-Paare.
+Diese werden einem elektrischen Feld getrennt und können mit Detektoren erfasst werden.

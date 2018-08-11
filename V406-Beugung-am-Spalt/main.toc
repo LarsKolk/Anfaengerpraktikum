@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Fresnelsche und Fraunhofersche Beugung}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Lichtbeugung am Einzel- und Doppelspalt}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Aufbau}{6}{subsection.2.3}
+\contentsline {section}{\numberline {3}Durchführung}{6}{section.3}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Einzelspalt }{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Doppelspalt}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}1. Messung }{9}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}2. Messung }{11}{subsubsection.4.2.2}
+\contentsline {section}{\numberline {5}Diskussion}{12}{section.5}
+\contentsline {section}{\nonumberline Literatur}{13}{section*.12}
