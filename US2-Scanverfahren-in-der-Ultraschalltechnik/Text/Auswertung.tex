@@ -1,0 +1,153 @@
+\section{Auswertung}
+
+\subsection{Untersuchung eines Acrylblocks \label{sec:acryl}}
+
+\subsubsection{A-Scan \label{sec:ascan}}
+
+In Tabelle \ref{tab:ascan} befinden sich die aufgenommenen und berechneten Werte.
+\input{Text/Tabellen/blockA.tex}
+
+Die Werte für $s_\text{oben}$ und $s_\text{unten}$ ergeben sich aus \eqref{eqn:s}
+\begin{equation}
+  s = \frac{1}{2} \cdot c_\text{Acryl} \cdot t - \xi.
+  \label{eqn:s}
+\end{equation}
+\begin{center}
+ \tiny{($c_\text{Acryl} = \SI{2730}{\m \per \s}$ \cite{sample2}, $\xi = \SI{0,2}{\cm} \: \hat{=} \: \text{Anpassungsschicht der Ultraschallsonde}$)}
+\end{center}
+
+Die Dicke der Fehlstellen berechnet sich aus \eqref{eqn:d}
+\begin{equation}
+  d = h - s_\text{oben} - s_\text{unten}.
+  \label{eqn:d}
+\end{equation}
+\begin{center}
+ \tiny{($h = \SI{8}{\cm} \: \hat{=} \: \text{Höhe des Zylinders}$)}
+\end{center}
+
+\subsubsection{B-Scan \label{sec:bscan}}
+
+In Abbildung \ref{fig:bscan} befinden sich die beiden aufgenommenen B-Scans.
+\begin{figure}[H]
+  \caption{Mit dem B-Scan untersuchter Acrylblock}
+  \label{fig:bscan}
+  \centering
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Scan-Bilder/bscanoben.jpg}
+                \caption{Acrylblock von oben mit einer $\SI{2}{\MHz}$-Sonde}
+                \label{fig:oben}
+        \end{subfigure}
+        \quad
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Scan-Bilder/bscanunten.jpg}
+                \caption{Acrylblock von unten mit einer $\SI{2}{\MHz}$-Sonde}
+                \label{fig:unten}
+        \end{subfigure}
+\end{figure}
+
+In Tabelle \ref{tab:bscan} befinden sich die aufgenommenen und berechneten Werte
+\input{Text/Tabellen/blockB.tex}
+
+Die Werte für $s_\text{oben}$, $s_\text{unten}$ und $d$ ergeben sich wie in Kapitel \ref{sec:ascan} aus den Gleichungen \eqref{eqn:s}
+und \eqref{eqn:d}.
+
+\subsection{Untersuchung des Auflösungsvermögens \label{sec:auf}}
+
+In Abbildung \ref{fig:auf} befinden sich die mit unterschiedlichen Sonden aufgenommenen A-Scans.
+\begin{figure}[H]
+  \caption{A-Scans mithilfe unterschiedlicher Ultraschallsonden von Loch 1 und 2}
+  \label{fig:auf}
+  \centering
+  \makebox[1 \textwidth][c]{
+        \begin{subfigure}[b]{0.69\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Scan-Bilder/aufblau.jpg}
+                \caption{$\SI{1}{\MHz}$-Sonde}
+                \label{fig:blau}
+        \end{subfigure}
+        \quad
+        \begin{subfigure}[b]{0.69\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Scan-Bilder/aufrot.jpg}
+                \caption{$\SI{2}{\MHz}$-Sonde}
+                \label{fig:rot}
+        \end{subfigure}
+        }
+        \par\bigskip
+        \begin{subfigure}[b]{0.69\textwidth}
+                \centering
+                \includegraphics[width=\textwidth]{Scan-Bilder/aufgruen.jpg}
+                \caption{$\SI{4}{\MHz}$-Sonde}
+                \label{fig:grün}
+        \end{subfigure}
+\end{figure}
+
+Bei der $\SI{4}{\MHz}$-Sonde werden die Schallwellen zu stark vom Material geschwächt, sodass das Signal kaum erkennbar ist.
+Die $\SI{1}{\MHz}$-Sonde liefert eine ordentliche Auflösung, allerdings sind die beiden Peaks etwas kleiner als
+bei der $\SI{2}{\MHz}$-Sonde. Dies liegt daran, dass bei dieser Frequenz die Wellenlänge der Schallwellen ungefähr der Größenordnung
+der Lochdurchmesser entspricht.
+
+\subsection{Untersuchung eines Herzmodells mit dem TM-Scan}
+
+In Abbildung \ref{fig:herz} befindet sich der aufgenommene TM-Scan.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Scan-Bilder/tmscan0.jpg}
+  \caption{TM-Scan des Herzmodells}
+  \label{fig:herz}
+\end{figure}
+
+In Tabelle \ref{tab:herz} befinden sich die aus Abbildung \ref{fig:herz} abgelesenen Werte.
+\input{Text/Tabellen/werte2.tex}
+
+Die Mittelwerte und ihre Fehler für $T$ und $h$ betragen
+\begin{align*}
+  \bar{T} &= \SI{1,99(3)}{\s} \\
+  \bar{h} &= \SI{28,42(20)e-6}{\s}
+\end{align*}
+
+und ergeben sich aus den Formeln \eqref{eqn:mit} und \eqref{eqn:sta}
+\begin{align}
+  \bar{x} &= \frac{1}{N} \sum_{i=1}^{N} x_i \label{eqn:mit} \\
+  \Delta \bar{x} &= \sqrt{\frac{1}{N (N - 1)} \sum_{i=1}^{N} (x_i - \bar{x})^2}. \label{eqn:sta}
+\end{align}
+
+Die Frequenz $\nu$ ergibt sich aus Formel \eqref{eqn:frq}
+\begin{equation}
+  \nu = \frac{1}{\bar{T}}.
+  \label{eqn:frq}
+\end{equation}
+
+Den Fehler erhält man aus der Gauß'schen Fehlerfortpflanzung \eqref{eqn:gaus}
+\begin{equation}
+  \delta = \sqrt{\sum_{i=1}^{n}\left(\frac{\partial y}{\partial x_i} \Delta x_i\right)^2}.
+  \label{eqn:gaus}
+\end{equation}
+
+Somit ergibt sich für die Herzfrequenz
+\begin{equation*}
+  \nu_\text{Herz} = \SI{0,502(9)}{\Hz}.
+\end{equation*}
+
+Mithilfe von Gleichung \eqref{eqn:s} und der Gauß'schen Fehlerfortpflanzung \eqref{eqn:gaus} lässt sich der Höhenunterschied $s$ zwischen
+der Systole und der Diastole zu
+\begin{equation*}
+  s = \SI{2,11(2)}{\cm}
+\end{equation*}
+bestimmen.
+
+Das Schlagvolumen $V$ ergibt sich aus der Formel für das Volumen eines Kugelsegments und der Gauß'schen Fehlerfortpflanzung \eqref{eqn:gaus}
+\begin{equation*}
+  V = \frac{s \cdot \pi}{6} \cdot \left(3a^2 + s^2 \right)= \SI{25,6(3)}{\ml}.
+  \label{eqn:vol}
+\end{equation*}
+\begin{center}
+  \tiny{($a = \SI{2,5}{\cm} \: \hat{=} \: \text{Radius des Herzmodells}$)}
+\end{center}
+
+Nun lässt sich mit Gleichung \eqref{eqn:gaus} das Herzzeitvolumen $HZV = V \cdot \nu_\text{Herz}$ berechnen
+\begin{equation*}
+  HZV = \SI{12,8(3)}{\ml \per \s} = \SI{0,77(2)}{\l \per \min}.
+\end{equation*}

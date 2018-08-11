@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Schall im Medium}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Erzeugung von Ultraschall und Anwendung}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Erzeugung}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Anwendung}{4}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {3}Durchführung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Untersuchung eines Acrylblocks mit dem A-Scan und Untersuchung des Auflösungsvermögens}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Untersuchung eines Acrylblocks mit dem B-Scan}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Untersuchung eines Herzmodells mit dem TM-Scan}{5}{subsection.3.3}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Untersuchung eines Acrylblocks }{6}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}A-Scan }{6}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}B-Scan }{6}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Untersuchung des Auflösungsvermögens }{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Untersuchung eines Herzmodells mit dem TM-Scan}{9}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.9}
