@@ -1,0 +1,26 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Erzeugung von Röntgenstrahlung}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Bremsstrahlung}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Charakteristsches Spektrum}{4}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Absorption}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Aufbau und Durchführung}{5}{section.3}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vorbereitung - Theoriewerte}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Überprüfung der Bragg-Bedingung }{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Emissionsspektrum der Kupfer-Röntgenröhre}{7}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Minimale Wellenlänge}{8}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Auflösungsvermögen}{8}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Abschirmkonstanten}{9}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}Absorptionsspektren}{10}{subsection.4.4}
+\contentsline {subsubsection}{\numberline {4.4.1}Zink }{10}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Brom}{10}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}Strontium}{11}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Zirkonium }{12}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}Moseley'sches Gesetz}{13}{subsubsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.6}Quecksilber }{14}{subsubsection.4.4.6}
+\contentsline {section}{\numberline {5}Diskussion}{15}{section.5}
+\contentsline {section}{\nonumberline Literatur}{16}{section*.13}
