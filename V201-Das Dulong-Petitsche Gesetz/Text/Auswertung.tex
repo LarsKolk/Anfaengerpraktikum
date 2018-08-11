@@ -1,0 +1,179 @@
+\section{Auswertung}
+
+\subsection{Kapazität des Kalorimeters}
+
+Die aufgenommenen Messwerte sind
+\begin{align*}
+  m_x &= \SI{300}{\g}       \\
+  m_y &= \SI{300}{\g} \\
+  T_x &= \SI{293,86}{\K} \\
+  T_y &= \SI{355,75}{\K} \\
+  T_m &= \SI{324,05}{\K}.
+\end{align*}
+
+Die spezifische Wärmekapazität von Wasser beträgt $c_w = \SI{4,18}{\joule \per \gram \kelvin}$ \cite[159]{sample1}.
+Mit Gleichung \eqref{eqn:kal} ergibt sich für die Kapazität des Kalorimeters
+\begin{equation*}
+  c_g m_g = \SI{62,28}{\joule \per \kelvin}.
+\end{equation*}
+
+\subsection{Ermittlung der spezifischen Wärmekapazität}
+
+\subsubsection{Graphit}
+
+Die aufgenommenen Messwerte befinden sich in Tabelle \ref{tab:graphit}. Die Masse des Probenkörpers beträgt hier
+$m_g = \SI{97,75}{\g}$.
+Die Werte für die spezifische Wärmekapazität $c_g$ ergeben sich aus Gleichung \eqref{eqn:ck}.
+\begin{table}[H]
+  \centering
+  \caption{Werte zur Bestimmung der spezifischen Wärmekapazität von Graphit}
+  \label{tab:graphit}
+  \begin{tabular}{c c c c}
+    \toprule
+       & {1. Messung} & {2. Messung} & {3. Messung}\\
+    \midrule
+       $m_W \:/\: \mathrm{g}$ & 600 & 600 & 600 \\
+       $T_W \:/\: \mathrm{K}$ & 295,45 & 295,45 & 298,75 \\
+       $T_g \:/\: \mathrm{K}$ & 355,95 & 365,45 & 360,65 \\
+       $T_m \:/\: \mathrm{K}$ & 295,75 & 297,65 & 299,55 \\
+       $c_g \:/\: \mathrm{\frac{J}{g K}}$ & 0,131 & 0,853 & 0,344 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Der Mittelwert ergibt sich aus
+\begin{equation}
+  \bar{x} = \frac{1}{N} \sum_{i=1}^{N} x_i
+  \label{eqn:mit}
+\end{equation}
+
+und die Standardabweichung aus
+\begin{equation}
+  \Delta \bar{x} = \sqrt{\frac{1}{N (N - 1)} \sum_{i=1}^{N} (x_i - \bar{x})^2}.
+  \label{eqn:sta}
+\end{equation}
+
+Angewendet ergibt das
+\begin{align*}
+  \bar{c}_g &= \frac{c_{g1}+c_{g2}+c_{g3}}{3} \\
+  \Delta \bar{c}_g &= \sqrt{\frac{1}{6} \left((c_{g1}-\bar{c}_g)^2 + (c_{g2}-\bar{c}_g)^2 + (c_{g3}-\bar{c}_g)^2 \right)}.
+\end{align*}
+
+Somit beträgt die gemittelte Wärmekapazität
+\begin{equation*}
+  \bar{c}_g = \SI{0,443(214)}{\joule \per \gram \per \kelvin}.
+\end{equation*}
+
+Der Theoriewert beträgt $c_\text{theo} = \SI{0,715}{\joule \per \gram \per \kelvin}$ (s. \cite{sample2}).
+Daher beträgt die Abweichung $38,06 \%$.
+
+\subsubsection{Blei}
+Die aufgenommenen Messwerte befinden sich in Tabelle \ref{tab:blei}.
+Die spezifischen Wärmekapazitäten $c_b$ ergeben sich aus Gleichung \eqref{eqn:ck}.
+Der Probenkörper hat die Masse $m_b = \SI{535,33}{\g}$.
+\begin{table}[H]
+  \centering
+  \caption{Werte zur Bestimmung der spezifischen Wärmekapazität von Blei}
+  \label{tab:blei}
+  \begin{tabular}{c c c c}
+    \toprule
+       & {1. Messung} & {2. Messung} & {3. Messung}\\
+    \midrule
+      $m_W \:/\: \mathrm{g}$ & 600 & 600 & 600 \\
+      $T_W \:/\: \mathrm{K}$ & 299,15 & 299,75 & 303,45 \\
+      $T_b \:/\: \mathrm{K}$ & 357,55 & 366,15 & 367,35 \\
+      $T_m \:/\: \mathrm{K}$ & 301,45 & 302,55 & 303,95 \\
+      $c_b \:/\: \mathrm{\frac{J}{g K}}$ & 0,197 & 0,211 & 0,038 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Die Mittelung mithilfe von \eqref{eqn:mit} und \eqref{eqn:sta} ergibt
+\begin{align*}
+  \bar{c}_b &= \frac{c_{b1}+c_{b2}+c_{b3}}{3} \\
+  \Delta \bar{c}_b &= \sqrt{\frac{1}{6} \left((c_{b1}-\bar{c}_b)^2 + (c_{b2}-\bar{c}_b)^2 + (c_{b3}-\bar{c}_b)^2 \right)}.
+\end{align*}
+
+Die spezifische Wärmekapazität beträgt
+\begin{equation*}
+  \bar{c}_b = \SI{0,149(056)}{\joule \per \gram \per \kelvin}.
+\end{equation*}
+
+Der Literaturwert ist $c_\text{theo} = \SI{0,129}{\joule \per \gram \per \kelvin}$ (s. \cite{sample2}).
+Die Abweichung beträgt $15,27 \%$.
+
+\subsubsection{Aluminium}
+Die aufgenommenen Messwerte befinden sich in Tabelle \ref{tab:alu}. Der Probenkörper wiegt $\SI{106,58}{\g}$.
+Die spezifischen Wärmekapazitäten $c_a$ ergeben sich aus Gleichung \eqref{eqn:ck}.
+\begin{table}[H]
+  \centering
+  \caption{Werte zur Bestimmung der spezifischen Wärmekapazität von Aluminium}
+  \label{tab:alu}
+  \begin{tabular}{c c c c}
+    \toprule
+       & {1. Messung} & {2. Messung} & {3. Messung}\\
+    \midrule
+      $m_W \:/\: \mathrm{g}$ & 600 & 600 & 600 \\
+      $T_W \:/\: \mathrm{K}$ & 303,55 & 305,75 & 307,15 \\
+      $T_a \:/\: \mathrm{K}$ & 363,65 & 360,15 & 356,15 \\
+      $T_m \:/\: \mathrm{K}$ & 304,65 & 307,35 & 308,35 \\
+      $c_a \:/\: \mathrm{\frac{J}{g K}}$ & 0,450 & 0,731 & 0,605 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Mithilfe der Gleichungen \eqref{eqn:mit} und \eqref{eqn:sta} ergibt sich die Mittelung
+\begin{align*}
+  \bar{c}_a &= \frac{c_{a1}+c_{a2}+c_{a3}}{3} \\
+  \Delta \bar{c}_a &= \sqrt{\frac{1}{6} \left((c_{a1}-\bar{c}_a)^2 + (c_{a2}-\bar{c}_a)^2 + (c_{a3}-\bar{c}_a)^2 \right)}.
+\end{align*}
+
+Für die spezifische Wä Wärmekapazität ergibt sich somit
+\begin{equation*}
+  \bar{c}_a = \SI{0,595(081)}{\joule \per \gram \per \kelvin}.
+\end{equation*}
+
+Der Literaturwert beträgt $c_\text{theo} = \SI{0,895}{\joule \per \gram \per \kelvin}$ (s. \cite{sample2}).
+Die Abweichung beträgt somit $33,49 \%$.
+
+\subsection{Berechnung der Molwärme \label{sec:mol}}
+
+Die Molwärme lässt sich mithilfe von Gleichung \eqref{eqn:molw} bestimmen.
+Mithilfe von
+\begin{align*}
+  \bar{T}_m &= \frac{T_{m1}+T_{m2}+T_{m3}}{3} \\
+  \Delta \bar{T}_m &= \sqrt{\frac{1}{6} \left((T_{m1}-\bar{T}_m)^2 + (T_{m2}-\bar{T}_m)^2 + (T_{m3}-\bar{T}_m)^2 \right)}.
+\end{align*}
+werden die Mischtemperaturen zu
+\begin{align*}
+  \bar{T}_{mg} &= \SI{297,65(110)}{\K} \\
+  \bar{T}_{mb} &= \SI{302,65(72)}{\K} \\
+  \bar{T}_{ma} &= \SI{306,78(111)}{\K}
+\end{align*}
+gemittelt.
+Die Werte für $\rho$, $M$, $\alpha$ und $\kappa$ befinden sich in der Versuchsanleitung \cite[159]{sample1}.
+Die Ergebnisse sind in Tabelle \ref{tab:mol} dargestellt.
+Die Molwärme nach Dulong-Petit beträgt
+\begin{equation}
+  C_V = 3 R = \SI{24,942}{\joule \per \mol \per \K}.
+\end{equation}
+
+\begin{table}[H]
+ \centering
+ \caption{Molwärmen der einzelnen Probenkörper und die Abweichungen vom Dulong-Petitschen Gesetz}
+ \label{tab:mol}
+ \begin{tabular}{c c c c}
+   \toprule
+      & {Graphit} & {Blei} & {Aluminium} \\
+   \midrule
+     $C_V \:/\: \mathrm{\frac{J}{mol K}}$ & 5,284 \pm 2,571 & 29,053 \pm 11,519 & 14,929 \pm 2,193 \\
+     Abweichung & 78,82 \% & 16,48 \% & 40,15 \% \\
+   \bottomrule
+ \end{tabular}
+\end{table}
+
+Die Abweichungen von $C_V$ werden mithilfe der Gauß'schen Fehlerfortpflanzung
+\begin{equation*}
+  \Delta C_V = \sqrt{\left(M \Delta c \right)^2 + \left(-9 \alpha^2 \kappa \frac{M}{\rho} \Delta T_m \right)^2}
+\end{equation*}
+berechnet.

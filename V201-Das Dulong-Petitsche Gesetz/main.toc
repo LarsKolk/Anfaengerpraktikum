@@ -1,0 +1,20 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Das Kalorimeter}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Das Dulong-Petitsche Gesetz}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Quantenmechanische Methode}{5}{subsection.2.3}
+\contentsline {section}{\numberline {3}Durchführung}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Bestimmung der Wärmekapazität des Kalorimeters}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Bestimmung der Wärmekapazitäten verschiedener Stoffe}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Kapazität des Kalorimeters}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Ermittlung der spezifischen Wärmekapazität}{6}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Graphit}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Blei}{7}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Aluminium}{8}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Berechnung der Molwärme }{9}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}
+\contentsline {section}{\nonumberline Literatur}{10}{section*.7}
