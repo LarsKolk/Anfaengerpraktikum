@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Theorie \cite {sample}}{3}{section.1}
+\contentsline {section}{\numberline {2}Aufbau \cite {sample}}{3}{section.2}
+\contentsline {section}{\numberline {3}Durchführung \cite {sample}}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Apparatekonstanten bestimmen}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Bestimmung des magnetischen Moments mithilfe der Gravitation }{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Bestimmung des magnetischen Moments über die Schwingungsdauer }{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Bestimmmung des magnetsichen Moments über die Präzession }{5}{subsection.3.4}
+\contentsline {section}{\numberline {4}Auswertung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Apparatekonstanten}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Gravitation}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Schwingungsdauer}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Präzession}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}
+\contentsline {section}{\nonumberline Literatur}{11}{section*.12}

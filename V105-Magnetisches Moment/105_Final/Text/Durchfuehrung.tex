@@ -1,0 +1,78 @@
+\section{Durchführung \cite{sample}}
+
+\subsection{Apparatekonstanten bestimmen}
+
+Zunächst müssen der Radius $r_K$ und die Masse $m_K$ der Billardkugel und die Länge des Stiels bestimmt werden.
+Mithilfe dieser Werte wird anschließend Trägheitsmoment $J_K = \frac{2}{5} m_K \cdot r_K^2$ berechnet.
+Außerdem muss auch die verschiebbare Masse $m$ gewogen werden.
+
+\subsection{Bestimmung des magnetischen Moments mithilfe der Gravitation \label{sec:grav}}
+
+Es wird eine Aluminiumstange mit einer verschiebbaren Masse $m$ in den Stiel der Kugel geschoben.
+Dabei wirkt die Gravitationskraft $\vec{F_{\!\! g}} = m \cdot \vec{g}$ auf die Masse $m$,
+die das Drehmoment $\vec{D_{\!\! g}} = m \cdot (\vec{r} \times \vec{g})$ ausübt.
+In diesem Fall ist $\lvert \vec{r} \rvert$ der Abstand zwischen dem Zentrum der Billardkugel
+und dem Schwerpunkt der Masse $m$.
+Der Gravitation wirkt das Magnetfeld mit dem Drehmoment $\vec{D_{\!B}} = \vec{\mu} \times \vec{B}$ entgegen.
+Im Gleichgewicht gilt:
+\begin{align}
+  m \cdot (\vec{r} \times \vec{g}) &= \vec{\mu} \times \vec{B} \\
+   \implies r \cdot m \cdot g \cdot \sin{\varphi} &= \mu_{\symup{Dipol}} \cdot B \cdot \sin{\vartheta}.
+\end{align}
+Weil $\vec{g} \parallel \vec{B}$ ist, gilt $\varphi = \vartheta$. Daraus folgt:
+\begin{equation}
+  \mu_{\symup{Dipol}} \cdot B = m \cdot r \cdot g
+  \label{eqn:mygrav}
+\end{equation}
+Zuerst wird die Kugel mit der Aluminiumstange und der Masse $m$ auf den Messingzylinder gestellt und
+das Gebläse eingeschaltet.
+Für einen gegebenen Abstand $r$ muss die Stromstärke $I$ und somit das Magnetfeld $B$ so eingestellt werden,
+dass sich das System im Gleichgewicht befindet. Diese Messung soll für neun weitere Abstände wiederholt werden.
+
+\subsection{Bestimmung des magnetischen Moments über die Schwingungsdauer \label{sec:schw}}
+
+In diesem Teil des Experiments wird die Kugel in Schwingung versetzt, wobei sich die Kugel im
+homogenen Magnetfeld wie ein harmonischer Oszillator verhält.
+Die Bewegung der Kugel wird durch
+\begin{equation}
+  - \lvert \vec{\mu} \times \vec{B} \rvert = J_K \frac{d^2 \vartheta}{dt^2}
+\end{equation}
+beschrieben.
+Durch Lösen der Differentialgleichung ergibt sich die Schwingungsdauer $T$:
+\begin{equation}
+  T^2 = \frac{4 \pi^2 J_K}{\mu_\symup{Dipol}}\frac{1}{B}.
+  \label{eqn:sdauer}
+\end{equation}
+Die Kugel wird erneut auf den Messingzylinder gesetzt und das Gebläse eingeschaltet.
+Bei einem eingestellten Magnetfeld wird die Kugel um einen kleinen Winkel ausgelenkt.
+Es werden zehn Periodendauern gemessen und das Ergebnis gemittelt.
+Dies wird für neun weitere Magnetfeldstärken wiederholt.
+
+\subsection{Bestimmmung des magnetsichen Moments über die Präzession \label{sec:prae}}
+
+Bei der Präzession bewegt sich die Drehachse eines rotierenden Körpers auf einem Kegelmantel
+um die Drehimpulsachse $L$.
+Die Bewegungsgleichung für eine Präzessionsbewegung lautet:
+\begin{equation}
+  \vec{\mu} \times \vec{B} = \frac{d \vec{L}_K}{dt}.
+\end{equation}
+Die dazugehörige Lösung ist die Präzessionsfrequenz:
+\begin{equation}
+  \Omega_P = \frac{\mu \cdot B}{\lvert \vec{L}_K \rvert}.
+\end{equation}
+Da $\Omega_P = \frac{1}{T_P}$ ist, gilt:
+\begin{equation}
+  \frac{1}{T_P} = \frac{\mu_{\symup{Dipol}}}{2 \pi L_K} B,
+  \label{eqn:pfrq}
+\end{equation}
+wobei $L_K = J_K \cdot \omega$ ist.
+\\
+\\
+Die Kugel wird auf das Luftkissen gesetzt und das Stroboskop auf eine
+Frequenz zwischen $4 \mathrm{Hz}$ und $6 \mathrm{Hz}$ eingestellt.
+Anschließend wird die Billardkugel in Rotation versetzt und aus der senkrechten Position ausgelenkt.
+Die Rotationsfrequenz kann mithilfe des Stroboskops kontrolliert werden.
+Auf dem Stiel der Billardkugel befindet sich eine weiße Markierung.
+Rotiert die Kugel mit der am Stroboskop eingestellten Frequenz, erscheint die Markierung stationär.
+Sobald dies der Fall ist wird das Magnetfeld eingeschaltet und dreimal die Präzessionsperiode $T_P$ gemessen.
+Dies wird für insgesamt zehn Magnetfeldstärken $B$ wiederholt.
