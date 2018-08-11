@@ -1,0 +1,73 @@
+\section{Zielsetzung}
+\label{sec:Zielsetzung}
+
+In diesem Versuch soll die Schallgeschwindigkeit in Acryl mit verschiedenen Ultraschallmessmethoden
+bestimmt werden.
+
+\section{Theorie}
+\label{sec:Theorie}
+
+\subsection{Schall im Medium} \label{sec:SIM}
+Der in diesem Versuch verwendete Schall befindet sich im Frequenzbereich $\SI{20}{kHz}$ - $\SI{1}{GHz}$.
+Schall in diesem Frequenzbereich wird als Ultraschall bezeichnet und ist vom menschlichen Gehöhr nicht wahrnehmbar. \newline
+Schallwellen pflanzen sich in Gasen und Flüssigkeiten durch Druckschwankungen longitudinal fort. Es handelt sich bei Schall also um eine Longitudinalwelle. Für
+die orts- und zeitabhängige Druckverteilung gilt:
+\begin{equation}
+  p(x,t)=p_0+v_0 Z \cos(\omega t - kx) \text{.} \label{eqn:pxt}
+\end{equation}
+\begin{center}
+ \tiny {$Z\: \hat{=} \:\text{akustische Impedanz}=c\rho $, $c\: \hat{=} \: \text{Schallgewindigkeit}$, $\rho\: \hat{=} \: \text{Dichte des Mediums}$ )}
+\end{center}
+Eine weitere Eigenschaft von Schallwellen lässt sich aus Gleichung \eqref{eqn:pxt} entnehmen: Die Schallgewindigkeit ist abhängig vom Medium.
+Für die Schallgewindigkeit in Flüssigkeiten lässt sich der Zusammenhang
+\begin{equation}
+c_\text{{Fl}}=\sqrt{\frac{1}{\kappa\rho}}\label{eq:Fl}
+\end{equation}
+\begin{center}
+ \tiny {($\kappa \: \hat{=} \:\text{Kompressibilität der Flüssigkeit}$)}
+\end{center}
+aufstellen.
+Aufgrund auftretender Schubspannungen können in Festkörpern auch Transversalwellen auftreten, weshalb für die Schallgeschwindigkeit im Festkörper das Elastizitätsmodul $E$ von wichtiger Bedeutung ist.
+Mit diesem ergibt sich für die Schallgewindigkeit in Festkörpern der Zusammenhang
+\begin{equation}
+  c_\text{{Fe}}=\sqrt{\frac{E}{\rho}} \label{eq:Fe} \text{.}
+\end{equation}
+Jedoch ist nicht nur die Ausbreitungsgeschwindigkeit der Schallwelle vom Medium abhängig, sondern auch die abnehmende Intensität $I$ im Medium.
+Für diese gilt:
+\begin{equation}
+  I(x)=I_0\cdot\mathrm{e}^{-\alpha x}\label{eq:I} \text{.}
+\end{equation}
+\begin{center}
+  \tiny {($\alpha \: \hat{=} \:\text{Absorptionskoeffizient}$)}
+\end{center}
+Da Luft die Intensität von Schallwellen stark abschwächt, wird in diesem Versuch ein Kontaktmittel verwendet.
+Geht die Schallwelle von einem Medium mit akustischer Impedanz $Z_1$ in ein Medium akustischer mit Impedanz $Z_2$ über, so wird ein Teil der Schallwelle reflektiert, während der andere Teil durch
+die Grenzfläche transmittiert.
+Für den Reflektionskoeffizienten gilt
+\begin{equation}
+R=\left(\frac{Z_1-Z_2}{Z_1+Z_2}\right)^2 \text{,} \label{eq:R}
+\end{equation} während für den Transmissionskoeffizienten folglich
+\begin{equation}
+  T=1-R
+\end{equation}
+gilt.
+
+\subsection{Erzeugung von Ultraschall und Anwendung}
+\subsubsection{Erzeugung}
+Ultraschall kann mit einem sogeannten piezoelektrischen Kristall erzeugt und gemessen werden.
+Zum Erzeugen von Ultraschallwellen wird dieser in einem, mit Wechselstrom betriebenden, E-Feld platziert. Der Krsitall wird dort zu Schwingungen angeregt, wodurch Ultraschall entsteht.
+Wenn die Anregungsfrequenz mit der Eigenfrequenz übereinstimmt, kommt es zur Resonanz, wodurch sehr große Schwingungsamplituden erreicht werden.
+Der Kristall kann ebenso als Empfänger genutzt werden, da dieser auch durch Schall in Schwingungen versetzt werden kann.
+\subsubsection{Anwendung}
+Es gibt zwei grundlegende Techniken, mit denen, unter Einsatz von Ultraschall, Informationen über das zu untersuchende Objekt erhalten werden können.
+Eine der Verfahrensweise ist die Durchschallungs-Methode. Bei dieser liegen Sender und Empfänger auf gegenüberliegenden Seiten der Probe.
+Der Sender sendet Schallimpulse aus, die durch den zu untersuchenden Körper wandern und schließlich zum Empfänger gelangen.
+Befinden sich Fehlstellen im Körper, so registriert der Empfänger eine verminderte Intensität.
+So können zwar Fehlstellen registriert, aber nicht lokalisiert werden.
+Um Fehlstellen zu lokalisieren, kann die zweite Verfahrensweise, das Impuls-Echo-Verfahren, verwendet werden.
+Bei dieser befinden sich Sender und Empfänger auf der gleichen Seite der Probe. Trifft der ausgesendete Schallimpuls auf eine Fehlstelle, so wird ein Teil der Welle reflektiert
+und gelangt zum Empfänger. Durch den Zusammenhang
+\begin{equation}
+s=\frac{1}{2}c t
+\end{equation}
+kann die Fehlstelle lokalisiert werden, da durch den Messvorgang Schallgeschwindigkeit und Zeit bekannt sind.
