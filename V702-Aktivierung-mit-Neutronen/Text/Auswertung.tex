@@ -1,0 +1,122 @@
+\section{Auswertung}
+
+\subsection{Indium \label{sec:ind}}
+In Tabelle \ref{tab:ind} befinden sich die aufgenommenen Messwerte, bei denen der Nulleffekt von $\SI{0,25}{\per \s}$ bereits berücksichtigt wurde.
+\input{Text/Tabellen/werte1.tex}
+In Graph \ref{fig:ind} ist die Zerfallskurve des Indium-Zerfalls mit den Poisson-Fehlern $\sqrt{N}$ aufgetragen.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/ind.pdf}
+  \caption{Zerfallskurve von $\ce{^{116}In}$}
+  \label{fig:ind}
+\end{figure}
+
+Eine lineare Regression $f(x) = -a \cdot x + b$ liefert die Werte
+\begin{align*}
+  a &= \SI{2,52(10)e-4}{\per \s} \\
+  b &= \SI{2,38(2)}{}
+\end{align*}
+
+Die Halbwertszeit des Indium-Isotops beträgt somit
+\begin{equation*}
+  \tau_{\ce{^{116}In}} = \frac{\ln(2)}{a} = \SI{45,76(179)}{\min}.
+\end{equation*}
+
+Der Fehler ergibt sich aus der Gauß'schen Fehlerfortpflanzung
+\begin{equation}
+  \symup{\Delta} \tau_{\ce{^{116}In}} = \sqrt{\left(-\frac{\ln{(2)}}{a^2} \cdot \symup{\Delta}a \right)^2}
+\end{equation}
+
+Der Theoriewert \cite{sample2} ist $\tau_{\ce{^{116}In}, \text{theo}} = \SI{54,29}{\min}$. Die Abweichung liegt bei $15,72 \%$.
+
+Außerdem ergibt sich
+\begin{equation*}
+  N_0 \left(1 - e^{-\symup{\Delta}t a} \right) = \SI{10,83(23)}{\becquerel}.
+\end{equation*}
+
+\subsection{Rhodium \label{sec:rhod}}
+
+In Tabelle \ref{tab:rhod} befinden sich die aufgenommenen Messwerte, bei denen der Nulleffekt von $\SI{0,25}{\per \s}$ bereits berücksichtigt wurde.
+\input{Text/Tabellen/werte2.tex}
+
+Zuerst wird die Zerfallskurve des langlebigen Zerfalls $\ce{^{104i}Rh}$ bestimmt.
+In Abbildung \ref{fig:r1} sind die Werte für $t \geq \SI{468}{\s}$ aufgetragen.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/rhodi.pdf}
+  \caption{Zerfallskurve von $\ce{^{104i}Rh}$}
+  \label{fig:r1}
+\end{figure}
+
+Aus einer linearen Regression $f(x) = -a \cdot x + b$ mit
+\begin{align*}
+  a &= \SI{2,6(7)e-3}{\per \s} \\
+  b &= \SI{4,6(119)}{}
+\end{align*}
+
+mit der Gauß'schen Fehlerfortpflanzung \eqref{eqn:err1}
+\begin{equation}
+  \symup{\Delta} \tau_{\ce{^{104i}Rh}} = \sqrt{\left(-\frac{\ln{(2)}}{a^2} \cdot \symup{\Delta}a \right)^2}
+  \label{eqn:err1}
+\end{equation}
+
+ergibt sich die Halbwertszeit
+\begin{equation*}
+  \tau_{\ce{^{104i}Rh}} = \frac{\ln(2)}{a} = \SI{270(70)}{\s}.
+\end{equation*}
+
+Der Theoriewert \cite{sample3} liegt bei $\tau_{\ce{^{104i}Rh}, \text{theo}} = \SI{260}{\s}$, somit beträgt die Abweichung $3,85 \%$.
+
+Beim kurzlebigen Zerfall $t \leq \SI{216}{\s}$ gilt
+\begin{equation*}
+  \ln{\left(N_{\ce{^{104}Rh}}\right)} = \ln{\left(N_\text{ges} - N_{\ce{^{104i}Rh}}\right)} = -c \cdot x + d.
+\end{equation*}
+
+Dies ist in Abbildung \ref{fig:r2} dargestellt.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/rhod.pdf}
+  \caption{Zerfallskurve von $\ce{^{104}Rh}$}
+  \label{fig:r2}
+\end{figure}
+
+Für die Parameter der linearen Regression ergibt sich
+\begin{align*}
+  c &= \SI{17,0(8)e-3}{\per \s} \\
+  d &= \SI{42(4)}{}.
+\end{align*}
+
+Mit der Gauß'schen Fehlerfortpflanzung \eqref{eqn:err2}
+\begin{equation}
+  \symup{\Delta} \tau_{\ce{^{104}Rh}} = \sqrt{\left(-\frac{\ln{(2)}}{c^2} \cdot \symup{\Delta}c \right)^2}
+  \label{eqn:err2}
+\end{equation}
+
+ergibt sich die Halbwertszeit
+\begin{equation*}
+  \tau_{\ce{^{104}Rh}} = \frac{\ln(2)}{c} = \SI{40,7(19)}{\s}.
+\end{equation*}
+
+Der Theoriewert \cite{sample3} liegt bei $\tau_{\ce{^{104}Rh}, \text{theo}} = \SI{42}{\s}$, somit beträgt die Abweichung $3,10 \%$.
+
+Für die gesamte Zerfallskurve gilt
+\begin{equation*}
+  N(t) = N_{\ce{^{104}Rh}} + N_{\ce{^{104i}Rh}}.
+\end{equation*}
+
+Diese ist in Graph \ref{fig:r3} halblogarithmisch aufgetragen und zusammen mit den bereits in Abbildung \ref{fig:r1} und \ref{fig:r2}
+gezeigten Regressionen dargestellt.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/rhodges.pdf}
+  \caption{Die gesamte Zerfallskurve bei halblogarithmischer Auftragung}
+  \label{fig:r3}
+\end{figure}
+
+In Abbildung \ref{fig:r4} ist $N(t)$ nochmals aufgetragen, dieses mal aber bei linearer Auftragung.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{Plots/rhodgesnolog.pdf}
+  \caption{Die gesamte Zerfallskurve}
+  \label{fig:r4}
+\end{figure}

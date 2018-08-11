@@ -1,0 +1,23 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Aufbau und Wirkweise des Geiger-Müller Zählrohrs}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Tot- und Erholungszeit}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Nachentladungen}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Freigesetzte Ladungsmenge}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Charakteristik des Geiger-Müller Zählrohrs}{7}{subsection.2.5}
+\contentsline {section}{\numberline {3}Aufbau und Durchführung}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Charakteristik des Geiger-Müller Zählrohrs und Messung der pro Teilchen vom Zählrohr freigesetzten Ladungsmenge}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Messung der Totzeit des Geiger-Müller Zählrohrs}{8}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Oszillographische Messung der Totzeit}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Bestimmung der Totzeit mit der Zwei-Quellen-Methode}{8}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Charakteristik }{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Totzeit}{10}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Ablesen am Oszilloskop}{10}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Zwei-Quellen-Methode}{10}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Freigesetzte Ladungsträger }{11}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{13}{section.5}
+\contentsline {section}{\nonumberline Literatur}{14}{section*.11}
