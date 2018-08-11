@@ -1,0 +1,85 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{sample2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=015702f658c71406afb7b5eb5e7e690f}{%
+           family={RefractiveIndex},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{015702f658c71406afb7b5eb5e7e690f}
+      \strng{fullhash}{015702f658c71406afb7b5eb5e7e690f}
+      \strng{bibnamehash}{015702f658c71406afb7b5eb5e7e690f}
+      \strng{authorbibnamehash}{015702f658c71406afb7b5eb5e7e690f}
+      \strng{authornamehash}{015702f658c71406afb7b5eb5e7e690f}
+      \strng{authorfullhash}{015702f658c71406afb7b5eb5e7e690f}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optical constants of Air}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refractiveindex.info/?shelf=other&book=air&page=Ciddor
+      \endverb
+      \verb{url}
+      \verb https://refractiveindex.info/?shelf=other&book=air&page=Ciddor
+      \endverb
+    \endentry
+    \entry{sample}{online}{}
+      \name{author}{1}{}{%
+        {{hash=dc2ae4c35ceafbe06809d2b3f38a367b}{%
+           family={TU\bibnamedelima Dortmund},
+           familyi={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Physikalisches\bibnamedelima Praktikum},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={der},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \strng{fullhash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \strng{bibnamehash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \strng{authorbibnamehash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \strng{authornamehash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \strng{authorfullhash}{dc2ae4c35ceafbe06809d2b3f38a367b}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Versuch Nr. 401: Das Michelson-Interferometer}
+      \field{urlday}{29}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/AP/SKRIPT/V401.pdf
+      \endverb
+      \verb{url}
+      \verb http://129.217.224.2/HOMEPAGE/PHYSIKER/BACHELOR/AP/SKRIPT/V401.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

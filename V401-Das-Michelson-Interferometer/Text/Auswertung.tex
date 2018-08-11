@@ -1,0 +1,54 @@
+\section{Auswertung}
+
+\subsection{Bestimmung der Wellenlänge des verwendeten Lasers \label{sec:lam}}
+
+In Tabelle \ref{tab:lam} befinden sich die aufgenommenen Messwerte.
+\input{Text/Tabellen/lam.tex}
+
+Die von der Mikrometerschraube abgelesene Spiegelverschiebung $\symup{\Delta}d_\text{abgelesen}$ muss mithilfe der Übersetzung $Ü$
+in die tatsächliche Verschiebung $\symup{\Delta}d$ umgerechnet werden. Für die letzten beiden Werte beträgt die Übersetzung
+$\ddot{U} = \frac{1}{5,046}$, für den Rest beträgt sie $\ddot{U} = \frac{1}{5,017}$.
+
+Die Werte für $\lambda$ ergeben sich aus Gleichung \eqref{eqn:lam}
+\begin{equation}
+  \lambda = \frac{2 \symup{\Delta}d}{z}.
+  \label{eqn:lam}
+\end{equation}
+
+Der Mittelwert und die Standardabweichung ergeben sich aus den Gleichungen \eqref{eqn:mit} und \eqref{eqn:sta}
+\begin{align}
+  \bar{N} &= \frac{1}{n} \sum_{i=1}^{n} N_i
+  \label{eqn:mit} \\
+  \sigma_{\bar{N}} &= \sqrt{\frac{1}{n (n - 1)} \sum_{i=1}^{n} (N_i - \bar{N})^2}.
+  \label{eqn:sta}
+\end{align}
+
+Im Mittel beträgt $\lambda$ somit
+\begin{equation*}
+  \bar{\lambda} = \SI{638(15)}{\nm}.
+\end{equation*}
+
+Der Theoriewert beträgt $\lambda_\text{theo} = \SI{635}{\nm}$. Die relative Abweichung beträgt $\SI{0,54}{\%}$, dies entspricht $\SI{0,24}{}$
+Fehlerintervallen.
+
+\subsection{Bestimmung des Brechungsindex von Luft \label{sec:n}}
+
+In Tabelle \ref{tab:n} befinden sich die aufgenommenen Messwerte.
+\input{Text/Tabellen/n.tex}
+
+Die Werte für $n$ unter Normalbedingungen ergeben sich aus Gleichung \eqref{eqn:n}
+\begin{align}
+  n = 1 + \frac{z \lambda}{2 b} \frac{T}{T_0} \frac{p_0}{\symup{\Delta}p}.
+  \label{eqn:n}
+\end{align}
+\begin{center}
+  \small{($b = \SI{50}{\mm} \: \hat{=} \: \text{Größe der Messzelle}$, $p_0 = \SI{1,0132}{\bar}$, $T_0 = \SI{273,15}{\K}$, $T = \SI{294,15}{\K}$)}
+\end{center}
+
+Der Mittelwert und die Standardabweichung nach Gleichung \eqref{eqn:mit} und \eqref{eqn:sta} beträgt
+\begin{equation*}
+  \bar{n} = \SI{1,000283(3)}{}.
+\end{equation*}
+
+Der Literaturwert \cite{sample2} für $\lambda = \SI{635}{\nm}$ beträgt $n_\text{theo} = \SI{1,00028}{}$. Die relative Abweichung liegt
+bei $\SI{0,0003}{\%}$. Der Mittelwert weicht um $\SI{0,97}{}$ Fehlerintervalle ab.

@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Zielsetzung}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interferenz und Kohärenz von Licht}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Das Michelson-Interferometer}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Durchführung}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Aufbau}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Messung der Wellenlänge eines Helium-Neon-Lasers}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Messung des Brechungsindex in Luft}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Auswertung}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bestimmung der Wellenlänge des verwendeten Lasers }{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Bestimmung des Brechungsindex von Luft }{9}{subsection.4.2}
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}
+\contentsline {section}{\nonumberline Literatur}{10}{section*.8}
