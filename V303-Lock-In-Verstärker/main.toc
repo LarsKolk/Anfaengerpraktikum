@@ -1,0 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
+\contentsline {section}{\numberline {2}Aufbau und Durchführung}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Messung des Ausgangssignals}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Ohne Noise }{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Mit Noise}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}LED}{4}{subsubsection.2.1.3}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Apparatekonstante}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Messung des Ausgangssignals}{5}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}ohne Noise }{5}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}mit Noise }{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}LED }{9}{subsubsection.3.2.3}
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}
+\contentsline {section}{\nonumberline Literatur}{12}{section*.13}
