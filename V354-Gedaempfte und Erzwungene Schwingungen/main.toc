@@ -1,0 +1,20 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Gedämpfter RLC-Kreis}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Angeregter RLC-Kreis}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Aufbau und Durchführung}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Apperatekonstanten}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Effektiver Widerstand und Abklingzeit }{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Aperiodischer Grenzfall}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Frequenzabhängigkeit der Spannung}{7}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Frequenzabhängigkeit der Phase}{7}{subsection.2.5}
+\contentsline {section}{\numberline {3}Auswertung}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Apparatekonstanten}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Effektiver Widerstand und Abklingzeit}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Aperiodischer Grenzfall}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Frequenzabhängigkeit der Spannung}{11}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Frequenzabhängigkeit der Phase}{12}{subsection.3.5}
+\contentsline {section}{\numberline {4}Diskussion}{15}{section.4}
+\contentsline {section}{\nonumberline Literatur}{16}{section*.14}
