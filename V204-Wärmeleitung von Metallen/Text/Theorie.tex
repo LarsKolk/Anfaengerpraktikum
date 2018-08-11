@@ -1,0 +1,57 @@
+
+\section{Ziel}
+In diesem Versuch soll die Wärmeleitung von Messing, Aluminium und Edelstahl untersucht werden.
+\section{Theorie}
+Ist die Temperatur eines Körpers ungleichmäßig in diesem verteilt, so findet ein Wärmetransport statt.
+Dies kann durch Konvektion, also Wärmemitführung, Wärmestrahlung und Wärmeleitung geschehen,
+wobei sich in diesem Versuch auf letzteres beschränkt wird.
+Ebenso kann der Gitterbeitrag vernachlässigt werden, da im folgenden nur Metalle untersucht werden.
+\\
+Betrachtet wird zunächst ein Metallstab der Länge $L$ und Querschnittsfläche $A$,
+dessen Enden eine Temperaturdifferenz $\Delta T$ aufweisen.
+Aus dem 2. Hauptsatz der Thermodynamik folgt, dass nun Wärme vom wärmeren zum kälteren Ende fließt.
+Es ergibt sich folgender Zusammenhang:
+\begin{equation}
+  \symup{d}Q=-\kappa A\frac{\symup{\partial}T}{\symup{\partial}x}\symup{d}t
+  \label{eqn:dQ}
+\end{equation}
+\begin{center}
+ \small {($Q=\text{Wärme}$,  $T=\text{Temperatur}$, $t=\text{Zeit}$, $ x \in [0, L]$ .)}
+\end{center}
+Das negative Vorzeichen folgt aus Konvention und zeigt, dass Temperatur vom wärmeren ins kältere Reservoir fließt.
+Für die Wärmestromdichte $j_w$ gilt entsprechend
+\begin{equation}
+  j_w=-\kappa \frac{\symup{\partial}T}{\symup{\partial}x}
+\end{equation}
+Aus der Kontinuitätsgleichung
+\begin{equation}
+  \frac{\symup{\partial}\rho}{\symup{\partial}t} + \vec{\nabla} \cdot \vec{j} =0
+\end{equation}
+ergibt sich damit die Wärmeleitungsgleichung in $1D$:
+\begin{equation}
+  \frac{\symup{\partial}T}{\symup{\partial}t} = \frac{\kappa}{\rho c} \frac{\symup{\partial}^2T}{\symup{\partial}x^2 .}
+  \label{eqn:WLG}
+\end{equation}
+\begin{center}
+ \small {($c=\text{spezifische Wärmekapazität}$,  $m=\text{Masse}$, $\rho=\text{Dichte}$})
+\end{center}
+Der Faktor $\sigma_T=\frac{\kappa}{\rho c}$ wird dabei als Leitfähigkeit bezeichnet. Dieser gibt an, wie schnell der
+Temperaturunterschied $\Delta T$ der beiden Stabenden ausgeglichen wird.
+Die Lösung von \eqref{eqn:WLG} hängt von den gewählten Anfangsbedingungen ab.
+Wird der Körper periodisch abgekühlt und erwärmt, so ergibt sich folgender Zusammenhang:
+\begin{equation}
+  T(x, t)=T_\text{max}\exp{\!\!\left[-\sqrt{\frac{\omega \rho c}{2\kappa}}\right]} \cos{\left(\omega t - \sqrt{\frac{\omega \rho c}{2\kappa}} x \right)}
+\end{equation}
+\begin{center}
+ \small {(mit $\omega=\frac{2\pi}{T*}$,  $T*=\text{Periodendauer}$})
+\end{center}
+Für die Phasengeschwindigkeit $\nu=\frac{\omega}{k}$ ergibt sich damit:
+\begin{equation}
+  \nu =\sqrt{\frac{2\kappa \omega}{\rho c}}
+\end{equation}
+Mit den bereits bekannten Zusammenhängen folgt mit der Phase $\phi=\frac{2 \pi \Delta t}{T*}$ für die
+Wärmeleitfähigkeit $\kappa$:
+\begin{equation}
+  \kappa=\frac{\rho c \left(\delta x\right)^2}{2 \Delta t \ln{\left(\frac{A_\text{nah}}{A_\text{fern}}\right)}}
+  \label{eqn:kap}
+\end{equation}
