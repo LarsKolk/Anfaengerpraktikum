@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {german}
+\contentsline {section}{\numberline {1}Ziel}{3}{section.1}
+\contentsline {section}{\numberline {2}Theorie}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Grundlegendes}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Einfluss des Kontaktpotentials}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Einfluss des Energie-Spektrums der Elektronen}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Einfluss des Dampfdruckes}{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Aufbau und Durchführung}{6}{section.3}
+\contentsline {section}{\numberline {4}Auswertung}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Mittlere freie Weglänge}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Skalierungsfaktoren}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Differentielle Energieverteilung und Kontaktpotential}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Franck-Hertz-Kurve}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Ionisierungsenergie }{16}{subsection.4.5}
+\contentsline {section}{\numberline {5}Diskussion}{18}{section.5}
+\contentsline {section}{\nonumberline Literatur}{18}{section*.20}
